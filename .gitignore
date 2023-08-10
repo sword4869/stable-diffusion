@@ -1,2 +1,4 @@
 latent_diffusion.egg-info/*
 src/*
+models/*
+dist/*
