@@ -1,25 +1,25 @@
 # conda create -n ldm python=3.10 -y
 # conda install cudatoolkit=11.7 -c nvidia -c conda-forge -y
 # pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
-# conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia -y
+
+numpy
 albumentations
 diffusers
-einops
-imageio
-imageio-ffmpeg
-invisible-watermark
-kornia
-numpy
-omegaconf
 opencv-python
 pudb
+invisible-watermark
+imageio
+imageio-ffmpeg
 pytorch-lightning
-streamlit
+omegaconf
 test-tube
+streamlit
+einops
 torch-fidelity
-torchmetrics
 transformers
+torchmetrics
+kornia
 
-# pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
-# pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
-# pip install -e .
+-e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+-e git+https://github.com/openai/CLIP.git@main#egg=clip
+-e .
